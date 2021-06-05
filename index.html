@@ -5,7 +5,17 @@
         <title>Curso de Java Script</title>
         <script type="text/javascript" src="js/main.js"></script>
     </head>
-    <body>
+    <body onload="carregando()">
         <h1>Introdução ao Java Script</h1>
+        <button type="button" onclick="clicado()">Clicar aqui</button>
+        <p id="paraRedirecionar" onclick="redirecionar()">Abre a página do Google</p>
+        <p id="clicando" onclick="agradecer()">Clicar aqui</p>
+        <p onmouseover="pousarMouse(this)" onmouseout="tirarMouse(this)">Pousar mouse</p>
+        <p onmouseover="pousarMouse(this)" onmouseout="tirarMouse(this)">Pousar mouse</p>
+        <select onchange="mostrarEscolha(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
     </body>
 </html>

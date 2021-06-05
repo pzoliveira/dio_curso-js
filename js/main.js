@@ -1,5 +1,29 @@
+//Aula_05
+function carregando(){
+    alert("A página está carregando!");
+}
+function clicado(){
+    alert("Você clicou no botão!");
+}
+function redirecionar(){
+    //window.open("https://www.google.com/");
+    window.location.href="https://www.google.com/";
+}
+function agradecer(){
+    document.getElementById("clicando").innerHTML = "<b>Obrigado por clicar</b>"
+}
+function pousarMouse(elemento){
+    elemento.innerHTML = "Tirar mouse";
+}
+function tirarMouse(elemento){
+    elemento.innerHTML = "Pousar mouse";
+}
+function mostrarEscolha(elemento){
+    console.log(elemento.value);
+}
+
 //Aula_04
-function somar(n1, n2){
+/*function somar(n1, n2){
     return n1 + n2;
 }
 console.log(somar(1, 2));
@@ -17,8 +41,7 @@ console.log(validar);
 function setReplace(frase, oldname, newname){
     return frase.replace(oldname, newname);
 }
-console.log(setReplace("Vai Japão!!!", "Japão", "Brasil"));
-
+console.log(setReplace("Vai Japão!!!", "Japão", "Brasil"));*/
 
 //Aula_03
 /*var d = new Date();
