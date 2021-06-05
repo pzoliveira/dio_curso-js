@@ -1,5 +1,27 @@
+//Aula_04
+function somar(n1, n2){
+    return n1 + n2;
+}
+console.log(somar(1, 2));
+var validar = 0;
+function validarIdade(idade){
+    //var validar = false;
+    if(idade >= 18){
+        validar = true;
+    }
+    return validar;
+}
+var idade = prompt("Qual a sua idade?");
+alert(validarIdade(idade));
+console.log(validar);
+function setReplace(frase, oldname, newname){
+    return frase.replace(oldname, newname);
+}
+console.log(setReplace("Vai Japão!!!", "Japão", "Brasil"));
+
+
 //Aula_03
-var d = new Date();
+/*var d = new Date();
 alert(d + "\n" + d.getDay() + "\\" + (d.getMonth() + 1) + "\n" + 
     d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
 
@@ -18,11 +40,7 @@ var count = 0;
 while(count < 5){
     console.log(count);
     count++;
-}
-
-
-
-
+}*/
 
 //Aula_02
 /*var frutas = ["laranja", "maçã", "pera"];
